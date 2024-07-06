@@ -1,0 +1,74 @@
+
+body{
+    background-image: url(sunlight-shining-single-mountain-top-sunset-with-dark-cloudy-sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.shape{
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.644);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form{
+    width:200px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.formcontainer{
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+p{
+    text-shadow: 0 4px 30px rgba(255, 255, 255, 0.644);
+}
+.radio{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.kontener{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+}
+.submit{
+    background-color: rgba(0, 0, 0, 0.315);
+    outline: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 50px;
+}
+.submit:hover{
+    background-color: black;
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+.form:hover{
+    background: none;
+    color: white;
+    border: black solid 1px;
+}
